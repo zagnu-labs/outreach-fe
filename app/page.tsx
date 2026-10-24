@@ -264,6 +264,9 @@ function Queue() {
           <button className="btn ghost small" type="button" disabled={busy} onClick={refresh}>
             Refresh
           </button>
+          <a className="btn ghost small" href="/templates">
+            Edit my message
+          </a>
           {me.can_rename && (
             <a className="btn ghost small" href="/name">
               Switch profile
